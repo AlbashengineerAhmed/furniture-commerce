@@ -40,8 +40,8 @@ const TopNavbar = () => {
                 className="me-2"
                 aria-label="Search"
               />
-              <Button variant="outline-success">
-                <Link to="search">
+              <Button variant="outline-danger">
+                <Link to="search text-danger">
                   <i className="fa fa-search"></i>
                 </Link>
               </Button>
