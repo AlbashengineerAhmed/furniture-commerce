@@ -41,7 +41,9 @@ const TopNavbar = () => {
                 aria-label="Search"
               />
               <Button variant="outline-success">
-                <i className="fa fa-search"></i>
+                <Link to="search">
+                  <i className="fa fa-search"></i>
+                </Link>
               </Button>
             </Form>
           </Nav>
