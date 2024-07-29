@@ -13,11 +13,13 @@ import image8 from "../../assets/images/products/f11.jpg";
 const SubCategory = () => {
   return (
     <>
-      <Container className="text-center" fluid={true}>
+      <Container className="text-center overflow-hidden" fluid={true}>
         <div className="section-title text-center mb-55">
           <h2>subcategory Products</h2>
           <p>Some Of Our Exclusive Collection, You May Like</p>
         </div>
+      </Container>
+      <Container className="text-center" fluid={true}>
         <Row>
           <Col className="p-1" lg={3} md={2} sm={6}>
             <div>

@@ -11,11 +11,13 @@ import { Link } from "react-router-dom";
 const SuggestedProduct = () => {
   return (
     <>
-      <Container className="text-center" fluid={true}>
-        <div className="section-title text-center mb-55">
+      <Container className="text-center overflow-hidden" fluid={true}>
+      <div className="section-title text-center mb-55">
           <h2>Suggested Products</h2>
           <p>Some Of Our Exclusive Collection, You May Like</p>
         </div>
+      </Container>
+      <Container className="text-center" fluid={true}>
         <Row>
           <Col className="p-1" lg={2} md={2} sm={6}>
             <div>
